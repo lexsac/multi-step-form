@@ -6,7 +6,7 @@ import Step3 from '../pages/Step3';
 import Step4 from '../pages/Step4';
 
 function MultiStepForm() {
-    const [step, setStep] = useState(1);
+    // const [step, setStep] = useState(1);
 
     return (
         <div className="App">
