@@ -1,10 +1,13 @@
 import React from 'react';
 
-const Step = () => {
+const Step = ({ num, text }) => {
     return (
         <div className="step">
-            <h1>Step 1</h1>
-            <p>Your info</p>
+            <div className="number-circle">
+                <p>{num}</p>
+            </div>
+            <h1>Step {num}</h1>
+            <p>{text}</p>
         </div>
     )
 }
