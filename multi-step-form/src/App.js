@@ -1,11 +1,12 @@
 import React from 'react';
 import MultiStepForm from './components/MultiStepForm';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import StepLeft from './components/StepLeft';
 import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
+      <StepLeft />
       <MultiStepForm />
     </div>
   );

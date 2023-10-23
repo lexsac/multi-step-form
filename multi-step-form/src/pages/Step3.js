@@ -1,11 +1,15 @@
 import React from 'react';
+import Headline from '../components/Headline';
+import NextStepButton from '../components/NextStepButton';
+import BackButton from '../components/BackButton';
 
 const Step3 = () => {
     return (
-        <>
-            <section className="home-page">
-                <h1>This is Step3</h1>
-            </section>
+        <>  
+            <Headline title={"Pick add-ons"} description={"Add-ons help enhance your gaming experience."} />
+        
+            <BackButton />
+            <NextStepButton />
         </>
     )
 }

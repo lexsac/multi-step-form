@@ -10,7 +10,6 @@ function MultiStepForm() {
 
     return (
         <div className="App">
-            <h1>Multi-Step Form</h1>
             <Router>  
                 <Route exact path="/step1">
                     <Step1 />

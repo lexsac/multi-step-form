@@ -1,7 +1,7 @@
 import React from 'react';
 import Headline from '../components/Headline';
-import BackButton from '../components/BackButton';
 import NextStepButton from '../components/NextStepButton';
+import BackButton from '../components/BackButton';
 
 const Step2 = () => {
     return (
