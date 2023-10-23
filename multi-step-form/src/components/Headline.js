@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Headline = () => {
+const Headline = ({title, description}) => {
     return (
         <div className="headline">
-            <h1>Personal Info</h1>
-            <p>Please provide your name, email address, and phone number.</p>
+            <h1>{title}</h1>
+            <p>{description}</p>
         </div>
     )
 }

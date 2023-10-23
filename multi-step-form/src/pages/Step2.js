@@ -1,9 +1,15 @@
 import React from 'react';
+import Headline from '../components/Headline';
+import BackButton from '../components/BackButton';
+import NextStepButton from '../components/NextStepButton';
 
 const Step2 = () => {
     return (
-        <>
-            <h1>This is Step2</h1>
+        <>  
+            <Headline title={"Select Your Plan"} description={"You have the option of monthly or yearly billing."} />
+            
+            <BackButton />
+            <NextStepButton />
         </>
     )
 }
